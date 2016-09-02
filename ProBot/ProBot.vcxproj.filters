@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\ProBotModule.cpp">
+      <Filter>module</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dll.cpp">
+      <Filter>module</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameManager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MacroManager.cpp">
+      <Filter>core\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MicroManager.cpp">
+      <Filter>core\micro</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debug.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KnowledgeBank.cpp">
+      <Filter>core\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyUnit.cpp">
+      <Filter>core\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BuildItem.cpp">
+      <Filter>core\macro\build order</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BuildMinimax.cpp">
+      <Filter>core\macro\build order\minimax</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TechTree.cpp">
+      <Filter>core\macro\build order\minimax</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ControlGroup.cpp">
+      <Filter>core\micro\control group</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UnitBehaviour.cpp">
+      <Filter>core\micro\control group</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CombatUtil.cpp">
+      <Filter>core\micro\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MovementUtil.cpp">
+      <Filter>core\micro\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UnitStorage.cpp">
+      <Filter>core\intel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ProBotModule.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameManager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MicroManager.h">
+      <Filter>core\micro</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MacroManager.h">
+      <Filter>core\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KnowledgeBank.h">
+      <Filter>core\intel</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyUnit.h">
+      <Filter>core\intel</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Flag.h">
+      <Filter>core\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BuildItem.h">
+      <Filter>core\macro\build order</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BuildOrders.h">
+      <Filter>core\macro\build order</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BuildMinimax.h">
+      <Filter>core\macro\build order\minimax</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TechTree.h">
+      <Filter>core\macro\build order\minimax</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ControlGroup.h">
+      <Filter>core\micro\control group</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UnitBehaviour.h">
+      <Filter>core\micro\control group</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CombatUtil.h">
+      <Filter>core\micro\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MovementUtil.h">
+      <Filter>core\micro\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UnitStorage.h">
+      <Filter>core\intel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{4d573116-e01c-4986-a215-781d47440b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module">
+      <UniqueIdentifier>{be22a5f5-9d79-467d-afc4-bd99e95f1a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{137017fd-61e7-4379-bd54-4ed6e75f7ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\macro">
+      <UniqueIdentifier>{70e7371a-5cf9-4112-9ed6-5d70a9c0bc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\micro">
+      <UniqueIdentifier>{ae53085b-0d87-451a-a19f-a29ec02f0578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\intel">
+      <UniqueIdentifier>{9dbf4512-0ad1-4cc5-8af2-0adce3d55f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\macro\build order">
+      <UniqueIdentifier>{1c90fddf-35fd-4198-b2de-a66a7e76e12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\macro\build order\minimax">
+      <UniqueIdentifier>{3a22bb17-f7b4-4d40-a040-4e37234d7647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\micro\control group">
+      <UniqueIdentifier>{e9840abf-12eb-469a-821d-c192662ea37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\micro\calculation">
+      <UniqueIdentifier>{0796c5c4-78b3-46e8-b1ed-06b289050e45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

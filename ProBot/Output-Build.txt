@@ -1,0 +1,7 @@
+﻿1>------ Build started: Project: ProBot, Configuration: Release Win32 ------
+1>  ScoutManager.cpp
+1>     Creating library Release\ProBot.lib and object Release\ProBot.exp
+1>  Generating code
+1>  Finished generating code
+1>  ProBot.vcxproj -> C:\Users\Paul\Desktop\UBC\Career\My Projects\Other\C++\ProBot\ProBot\Release\ProBot.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

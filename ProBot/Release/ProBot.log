@@ -1,0 +1,41 @@
+﻿Build started 9/2/2016 12:30:28 AM.
+     1>Project "C:\Users\Paul\Desktop\UBC\Career\My Projects\Other\C++\ProBot\ProBot\ProBot.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:/libraries/BWAPI\include /I../include /IC:/libraries/BWTAlib_2.2\include /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D NOMINMAX /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PROBOT_EXPORTS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\BuildMinimax.cpp Source\CombatUtil.cpp Source\ControlGroup.cpp Source\Debug.cpp Source\Dll.cpp Source\GameManager.cpp Source\KnowledgeBank.cpp Source\MacroManager.cpp Source\MicroManager.cpp Source\MovementUtil.cpp Source\ProBotModule.cpp Source\TechTree.cpp Source\UnitBehaviour.cpp Source\UnitStorage.cpp
+         BuildMinimax.cpp
+         CombatUtil.cpp
+         ControlGroup.cpp
+         Debug.cpp
+         Dll.cpp
+         GameManager.cpp
+         KnowledgeBank.cpp
+         MacroManager.cpp
+         MicroManager.cpp
+         MovementUtil.cpp
+         ProBotModule.cpp
+         TechTree.cpp
+         UnitBehaviour.cpp
+         UnitStorage.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Paul\Desktop\UBC\Career\My Projects\Other\C++\ProBot\ProBot\VS\Release\ProBot.lib" /NOLOGO /LTCG Release\BuildItem.obj
+         Release\BuildMinimax.obj
+         Release\CombatUtil.obj
+         Release\ControlGroup.obj
+         Release\Debug.obj
+         Release\Dll.obj
+         Release\EnemyUnit.obj
+         Release\GameManager.obj
+         Release\KnowledgeBank.obj
+         Release\MacroManager.obj
+         Release\MicroManager.obj
+         Release\MovementUtil.obj
+         Release\ProBotModule.obj
+         Release\TechTree.obj
+         Release\UnitBehaviour.obj
+         Release\UnitStorage.obj
+         ProBot.vcxproj -> C:\Users\Paul\Desktop\UBC\Career\My Projects\Other\C++\ProBot\ProBot\VS\Release\ProBot.lib
+     1>Done Building Project "C:\Users\Paul\Desktop\UBC\Career\My Projects\Other\C++\ProBot\ProBot\ProBot.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.72
